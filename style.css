@@ -1,5 +1,5 @@
 #article {
-  padding-left: 110px;
+  padding-left: 150px;
 }
 a {
   color:blue;
@@ -16,11 +16,11 @@ ol {
   border-right:1px solid black;
   width:200px;
   margin:0;
-  padding:20px;
+  padding:60px;
 }
 #grid {
   display: grid;
-  grid-template-columns:150px 1fr;
+  grid-template-columns:200px 1fr;
 }
 @media(max-width:800px) {
   #grid {

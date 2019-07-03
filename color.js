@@ -16,20 +16,20 @@ var Body = {
     document.querySelector('body').style.backgroundColor = color;
   }
 }
-  function DayToNight(self){
-    var target = document.querySelector('body');
-      if(self.value === 'night')
-      { Body.setColor('white');
-        Body.setBackgroundColor('black');
-        self.value = 'day';
+function DayToNight(self){
+  var target = document.querySelector('body');
+  if(self.value === 'night')
+  { Body.setColor('white');
+  Body.setBackgroundColor('black');
+  self.value = 'day';
 
-        Links.setColor('powderblue');
-      }
-      else
-      { Body.setColor('black');
-        Body.setBackgroundColor('white');
-        self.value = 'night';
+  Links.setColor('powderblue');
+}
+else
+{ Body.setColor('black');
+Body.setBackgroundColor('white');
+self.value = 'night';
 
-        Links.setColor('black');
-      }
-    }
+Links.setColor('black');
+}
+}
